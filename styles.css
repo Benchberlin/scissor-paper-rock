@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+}
+
+.options {
+}
+
+ul {
+  list-style: none;
+}
+
+.paperC {
+  opacity: 1;
+  height: 100px;
+  padding: 10px;
+}
+.paper {
+  opacity: 0.5;
+  height: 100px;
+  padding: 10px;
+}
+
+.paper:hover {
+  opacity: 1;
+}
+
+.rock {
+  opacity: 0.5;
+  height: 100px;
+  padding: 10px;
+}
+
+.rock:hover {
+  opacity: 1;
+}
+
+.scissor {
+  opacity: 0.5;
+  height: 100px;
+  padding: 10px;
+}
+
+.scissor:hover {
+  opacity: 1;
+}
+
+#computerPick {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

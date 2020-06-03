@@ -3,8 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script type="text/javascript" src="./javascript.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Paper, Scissor, Rock</title>
+    
   </head>
-  <body></body>
+  <body>
+      <nav>
+
+      </nav>
+      <section class="game">
+    <div class="options">
+        <table>
+      <tr>
+        <td>
+         <input type="image" src="https://res.cloudinary.com/benchberlin/image/upload/v1591013520/scissor_paper_rock/paper_nrm9ak.png" name="play" class="paper" />
+        </td>
+        <td>
+            <input type="image" src="https://res.cloudinary.com/benchberlin/image/upload/v1591013520/scissor_paper_rock/scissor_xxk712.png" name="play" class="scissor" />
+        </td>
+        <td>
+            <input type="image" src="https://res.cloudinary.com/benchberlin/image/upload/v1591013519/scissor_paper_rock/rock_b1xwby.png" name="play" class="rock" />
+        </td>
+    </tr>
+    <tr>
+        <td id="computer-paper">
+        </td>
+        <td height=120px id="computerPick">
+            
+        </td>
+        <td id="computer-scissor">
+        </td>
+    </tr>
+</table>
+    
+<table>
+<tr>
+    <th>
+        Points User:
+    </th>
+    <th id="counterU">
+    </th>
+</tr>
+<tr>
+    <th>
+        Computer Points:
+    </th>
+    <th id= "counterC">
+
+    </th>
+</tr>
+<tr>
+<th>
+  Round:
+</th>
+<th id="result">
+
+</th>
+
+</tr>
+
+</table>
+  
+    <button class="reload" onClick="window.location.reload();">Restart</button>
+</section>
+
+  </body>
+  <script type="text/javascript" src="./javascript.js"></script>
 </html>
